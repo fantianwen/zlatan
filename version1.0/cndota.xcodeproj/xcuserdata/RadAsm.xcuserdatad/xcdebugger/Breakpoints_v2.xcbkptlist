@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/AppKit.framework/Versions/C/Headers/NSApplication.h"
+            timestampString = "478876185.802418"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "cndota/AppDelegate.swift"
+            timestampString = "479049145.959602"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "188"
+            endingLineNumber = "188"
+            landmarkName = "showPauseAlert()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "cndota/AppDelegate.swift"
+            timestampString = "479049145.959602"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "190"
+            endingLineNumber = "190"
+            landmarkName = "AppDelegate"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "cndota/AppDelegate.swift"
+            timestampString = "479006918.415945"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "AppDelegate"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "cndota.AppDelegate.userCode.getter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.NSTextField&gt;"
+                  moduleName = "cndota"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/RadAsm/PycharmProjects/cndota/cndota/AppDelegate.swift"
+                  timestampString = "479092948.688032"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "cndota.AppDelegate.userCode.setter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.NSTextField&gt;"
+                  moduleName = "cndota"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/RadAsm/PycharmProjects/cndota/cndota/AppDelegate.swift"
+                  timestampString = "479092948.688365"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "cndota.AppDelegate.userCode.materializeForSet : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.NSTextField&gt;"
+                  moduleName = "cndota"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/RadAsm/PycharmProjects/cndota/cndota/AppDelegate.swift"
+                  timestampString = "479092948.688588"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "cndota.AppDelegate.init (cndota.AppDelegate.Type)() -&gt; cndota.AppDelegate"
+                  moduleName = "cndota"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/RadAsm/PycharmProjects/cndota/cndota/AppDelegate.swift"
+                  timestampString = "479092948.688807"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "590">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "cndota/AppDelegate.swift"
+            timestampString = "479006940.12377"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "AppDelegate"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "cndota.AppDelegate.userpwd.getter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.NSTextField&gt;"
+                  moduleName = "cndota"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/RadAsm/PycharmProjects/cndota/cndota/AppDelegate.swift"
+                  timestampString = "479021405.052534"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "cndota.AppDelegate.userpwd.setter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.NSTextField&gt;"
+                  moduleName = "cndota"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/RadAsm/PycharmProjects/cndota/cndota/AppDelegate.swift"
+                  timestampString = "479021405.052735"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "cndota.AppDelegate.userpwd.materializeForSet : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.NSTextField&gt;"
+                  moduleName = "cndota"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/RadAsm/PycharmProjects/cndota/cndota/AppDelegate.swift"
+                  timestampString = "479021405.052904"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "cndota.AppDelegate.init (cndota.AppDelegate.Type)() -&gt; cndota.AppDelegate"
+                  moduleName = "cndota"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/RadAsm/PycharmProjects/cndota/cndota/AppDelegate.swift"
+                  timestampString = "479021405.053201"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "646">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

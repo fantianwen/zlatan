@@ -1,0 +1,329 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24C5D62D1D0528C700C03E15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24C5D62C1D0528C700C03E15 /* Assets.xcassets */; };
+		24C5D6391D0538BE00C03E15 /* PopoverAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C5D6381D0538BE00C03E15 /* PopoverAction.swift */; };
+		24C5D63B1D05484A00C03E15 /* EventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C5D63A1D05484A00C03E15 /* EventMonitor.swift */; };
+		24C5D63E1D05624900C03E15 /* CheckInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C5D63D1D05624900C03E15 /* CheckInViewController.swift */; };
+		24C5D6401D06AB1700C03E15 /* CheckInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24C5D63F1D06AB1700C03E15 /* CheckInViewController.xib */; };
+		24C5D6431D06B5EE00C03E15 /* NSColor+CheckIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C5D6421D06B5EE00C03E15 /* NSColor+CheckIn.swift */; };
+		24C5D6451D06E43E00C03E15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C5D6441D06E43E00C03E15 /* AppDelegate.swift */; };
+		24C5D6481D06E48400C03E15 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24C5D6471D06E48400C03E15 /* MainMenu.xib */; };
+		24C5D64B1D0709CF00C03E15 /* TimeUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C5D64A1D0709CF00C03E15 /* TimeUtils.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		24C5D6271D0528C700C03E15 /* AutoCheckIn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoCheckIn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		24C5D62C1D0528C700C03E15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		24C5D6311D0528C700C03E15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24C5D6381D0538BE00C03E15 /* PopoverAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopoverAction.swift; sourceTree = "<group>"; };
+		24C5D63A1D05484A00C03E15 /* EventMonitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventMonitor.swift; sourceTree = "<group>"; };
+		24C5D63D1D05624900C03E15 /* CheckInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckInViewController.swift; sourceTree = "<group>"; };
+		24C5D63F1D06AB1700C03E15 /* CheckInViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CheckInViewController.xib; sourceTree = "<group>"; };
+		24C5D6421D06B5EE00C03E15 /* NSColor+CheckIn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSColor+CheckIn.swift"; sourceTree = "<group>"; };
+		24C5D6441D06E43E00C03E15 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../../../.Trash/AppDelegate.swift; sourceTree = "<group>"; };
+		24C5D6471D06E48400C03E15 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainMenu.xib; path = ../../../.Trash/MainMenu.xib; sourceTree = "<group>"; };
+		24C5D64A1D0709CF00C03E15 /* TimeUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeUtils.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24C5D6241D0528C700C03E15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24C5D61E1D0528C700C03E15 = {
+			isa = PBXGroup;
+			children = (
+				24C5D6291D0528C700C03E15 /* AutoCheckIn */,
+				24C5D6281D0528C700C03E15 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		24C5D6281D0528C700C03E15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24C5D6271D0528C700C03E15 /* AutoCheckIn.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24C5D6291D0528C700C03E15 /* AutoCheckIn */ = {
+			isa = PBXGroup;
+			children = (
+				24C5D6491D0709BA00C03E15 /* utils */,
+				24C5D6461D06E46600C03E15 /* Support */,
+				24C5D6411D06B5CB00C03E15 /* views */,
+				24C5D63C1D05622D00C03E15 /* Controllers */,
+				24C5D6371D05389400C03E15 /* Actions */,
+				24C5D6441D06E43E00C03E15 /* AppDelegate.swift */,
+			);
+			path = AutoCheckIn;
+			sourceTree = "<group>";
+		};
+		24C5D6371D05389400C03E15 /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+				24C5D6381D0538BE00C03E15 /* PopoverAction.swift */,
+				24C5D63A1D05484A00C03E15 /* EventMonitor.swift */,
+			);
+			name = Actions;
+			sourceTree = "<group>";
+		};
+		24C5D63C1D05622D00C03E15 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				24C5D63D1D05624900C03E15 /* CheckInViewController.swift */,
+				24C5D63F1D06AB1700C03E15 /* CheckInViewController.xib */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		24C5D6411D06B5CB00C03E15 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				24C5D6421D06B5EE00C03E15 /* NSColor+CheckIn.swift */,
+			);
+			name = views;
+			sourceTree = "<group>";
+		};
+		24C5D6461D06E46600C03E15 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				24C5D6311D0528C700C03E15 /* Info.plist */,
+				24C5D6471D06E48400C03E15 /* MainMenu.xib */,
+				24C5D62C1D0528C700C03E15 /* Assets.xcassets */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+		24C5D6491D0709BA00C03E15 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				24C5D64A1D0709CF00C03E15 /* TimeUtils.swift */,
+			);
+			name = utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24C5D6261D0528C700C03E15 /* AutoCheckIn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24C5D6341D0528C700C03E15 /* Build configuration list for PBXNativeTarget "AutoCheckIn" */;
+			buildPhases = (
+				24C5D6231D0528C700C03E15 /* Sources */,
+				24C5D6241D0528C700C03E15 /* Frameworks */,
+				24C5D6251D0528C700C03E15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AutoCheckIn;
+			productName = AutoCheckIn;
+			productReference = 24C5D6271D0528C700C03E15 /* AutoCheckIn.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24C5D61F1D0528C700C03E15 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "范天文";
+				TargetAttributes = {
+					24C5D6261D0528C700C03E15 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 24C5D6221D0528C700C03E15 /* Build configuration list for PBXProject "AutoCheckIn" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 24C5D61E1D0528C700C03E15;
+			productRefGroup = 24C5D6281D0528C700C03E15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24C5D6261D0528C700C03E15 /* AutoCheckIn */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24C5D6251D0528C700C03E15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24C5D62D1D0528C700C03E15 /* Assets.xcassets in Resources */,
+				24C5D6401D06AB1700C03E15 /* CheckInViewController.xib in Resources */,
+				24C5D6481D06E48400C03E15 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24C5D6231D0528C700C03E15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24C5D64B1D0709CF00C03E15 /* TimeUtils.swift in Sources */,
+				24C5D63B1D05484A00C03E15 /* EventMonitor.swift in Sources */,
+				24C5D63E1D05624900C03E15 /* CheckInViewController.swift in Sources */,
+				24C5D6391D0538BE00C03E15 /* PopoverAction.swift in Sources */,
+				24C5D6451D06E43E00C03E15 /* AppDelegate.swift in Sources */,
+				24C5D6431D06B5EE00C03E15 /* NSColor+CheckIn.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		24C5D6321D0528C700C03E15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		24C5D6331D0528C700C03E15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		24C5D6351D0528C700C03E15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AutoCheckIn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wen.tian.van.AutoCheckIn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		24C5D6361D0528C700C03E15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AutoCheckIn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wen.tian.van.AutoCheckIn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24C5D6221D0528C700C03E15 /* Build configuration list for PBXProject "AutoCheckIn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24C5D6321D0528C700C03E15 /* Debug */,
+				24C5D6331D0528C700C03E15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24C5D6341D0528C700C03E15 /* Build configuration list for PBXNativeTarget "AutoCheckIn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24C5D6351D0528C700C03E15 /* Debug */,
+				24C5D6361D0528C700C03E15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24C5D61F1D0528C700C03E15 /* Project object */;
+}
